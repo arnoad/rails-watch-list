@@ -1,0 +1,13 @@
+<div class="m-5">
+  <h1>All lists</h1>
+    <div>
+      <ul>
+        <% @lists.each do | list | %>
+          <li><%= link_to list.name, list_path(list) %></li>
+          <% end %>
+      </ul>
+    </div>
+</div>
+<div class="ms-5">
+  <a href="/lists/new" class="btn btn-primary"> + Add new list</a>
+</div>
