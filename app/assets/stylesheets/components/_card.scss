@@ -1,9 +1,4 @@
 .list-item-card {
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr 1fr;
-  // justify-content: space-between;
-  // height: 50px;
-  // width: 100px;
-  color: $light-gray;
+  display: flex;
   font-size: 12;
 }
