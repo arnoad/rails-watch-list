@@ -1,1 +1,22 @@
 // Specific CSS for your home-page
+body {
+  background-color: $gray;
+}
+
+.container {
+  color: $light-gray;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  display: grid;
+  justify-content: center;
+}
+
+.list-item-card {
+  text-decoration: none;
+  color: $light-gray;
+}
+
+li {
+  text-decoration: none;
+}
